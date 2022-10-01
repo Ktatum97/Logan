@@ -3,21 +3,21 @@
 using namespace std;
 int main()
 {
-	float x,y,s,m,d,r;
+	float KLTH_x,KLTH_y,KLTH_s,KLTH_m,KLTH_d,KLTH_r;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de KLTH_x=:";
+	cin>>KLTH_x;
+	cout<<"Ingrese en valor de KLTH_y=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>KLTH_y;
+	KLTH_s=KLTH_x+KLTH_y;
+	KLTH_m=KLTH_x*KLTH_y;
+	KLTH_d=KLTH_x/KLTH_y;
+	KLTH_r=KLTH_x-KLTH_y;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<KLTH_x<<" + "<<KLTH_y<<" = "<<KLTH_s<<endl;
+	cout<<"Las multiplicacion de "<<KLTH_x<<" * "<<KLTH_y<<" = "<<KLTH_m<<endl;
+	cout<<"Las division de "<<KLTH_x<<" / "<<KLTH_y<<" = "<<KLTH_d<<endl;
+	cout<<"Las resta de "<<KLTH_x<<" - "<<KLTH_y<<" = "<<KLTH_r<<endl;
 	return 0;
 }
